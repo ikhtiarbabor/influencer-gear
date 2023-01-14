@@ -1,4 +1,7 @@
 @media only screen and (max-width: 576px) {
+  .container {
+    width: 570px;
+  }
   /*......................
  header and nav styles 
  ......................*/
@@ -19,10 +22,10 @@
     border: 0;
   }
   #brands .logo {
-    width: calc(100% / 4);
+    width: 20%;
   }
   #brands .logo img {
-    width: 80%;
+    width: 100;
   }
   /*...................
   Popular Collection 
@@ -36,20 +39,16 @@
   .featured-product-wrapper {
     grid-template-columns: 1fr;
     text-align: center;
+    flex-direction: column-reverse;
   }
   .featured-product-wrapper p {
-    padding: 16px 275px;
+    padding: 16px;
   }
-  .featured-product {
-    grid-row: 2;
-  }
+
   .featured-product img {
-    width: 80%;
+    width: 100%;
   }
-  .featured-product-content {
-    grid-row: 1;
-  }
-  .featured-product-content .btn{
+  .featured-product-content .btn {
     margin-bottom: 10px;
   }
 }
