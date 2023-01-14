@@ -162,12 +162,9 @@ header {
 /*...........
     Footer
    .......... */
-footer {
+#footer {
   padding: 50px 0;
   background: #0a0826;
   color: #fff;
   text-align: center;
-}
-img {
-  width: 100%;
 }

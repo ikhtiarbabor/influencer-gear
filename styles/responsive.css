@@ -1,6 +1,6 @@
 @media only screen and (max-width: 576px) {
   .container {
-    width: 570px;
+    max-width: 576px;
   }
   /*......................
  header and nav styles 
@@ -50,5 +50,8 @@
   }
   .featured-product-content .btn {
     margin-bottom: 10px;
+  }
+  #footer {
+    width: auto;
   }
 }
